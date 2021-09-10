@@ -1,0 +1,74 @@
+html,
+
+/* 배경,폰트 색상 조절부  */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: greenyellow;
+    background:rgb(175, 183, 185);
+    overflow: hidden;
+}
+/* 블럭위치 조절부 */
+.block {
+    position: relative;
+    width: 580px;
+    height: 460px;
+    margin: 10px 300px 20px 80px;
+}
+/* 폰트조절부 */
+h1 {
+    position: absolute;
+    font-family: "Monument Extended";
+    font-weight: lighter;
+    font-size: 64px;
+}
+/* 이미지 파일 삽입 경로 */
+.block-1 {
+    background: url(img/img_1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-2 {
+    background: url(img/img_2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-3 {
+    background: url(img/img_3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-4 {
+    background: url(img/img_4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-5 {
+    background: url(img/img_5.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-6 {
+    background: url(img/img_6.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+/* 홀수 번호 블럭 */
+.block-1 h1,
+.block-3 h1,
+.block-5 h1 {
+    bottom: 0;
+    right: -60px;
+}
+/* 짝수 번호 블럭 */
+.block-2 h1,
+.block-4 h1,
+.block-6 h1 {
+    right: -60px;
+}
